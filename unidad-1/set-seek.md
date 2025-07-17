@@ -18,3 +18,16 @@ R/: la primera gran diferencia es claramente el hecho de que uno se vea mas inte
 #### pregunta 4 ¿Qué posibilidades crees que esto puede ofrecer a tu perfil profesional?
 
 R/: bastante, la verdad el hecho de arte generativo, generación de patrones, visuales y demás cosas relacionadas me llaman la atención a la hora de el ambito profesional y me puedo idiealizar a trabajar con este campo 
+
+### Actividad 2 
+
+#### pregunta 1 ¿Qué pensabas que hacía un Ingeniero en diseño de entretenimiento digital con énfasis en experiencias interactivas?
+
+R/: pensaba que se centraba mas en la parte de creación de objetos fisicos para que usuarios interctuaran con este pero ahora me doy cuenta que puden ser muchas cosas que aparte de objetos fisicos, puede ser generación de particulas, arte generativo, modelados y demás 
+
+#### pregunta 2 ¿Qué potencial le ves al diseño e implementación de experiencias inmersivas colectivas?
+R/: demasiadas, viendo ejemplos como el propuesto por el profesor de alguien haciendo patrones y generando arte mientras un cantante hace su parte del show puede hacer cosas muy increibles, pues si ya los visuales son un campo muy utilizado en la industria de la musica y los conciertos el que pueda ser creado en tiempo real y de cierta forma mas intimo al artista brinda muchas posibilidades como para que el usuario lo viva de muchas formas, llegando al punto en que inlcuso los que van a disfrutar del concierto interfieran en los visuales del mismom 
+
+#### pregunta 3 ¿Cómo te ves profesionalmente en este escenario?
+R/: eso que menciono anteriormente me llama mucho la atención pues la musica es una parte muy importante en mi vida y me gustaria trabajar en ese ambito, siento que puede ser mas maleable, mientras un artista de musica suele casarse con un genero o tipo de musica, el arte generativo y el ser la imagen de la musica me da la posibilidad de conocer mucha musica y de que la misma musica la represente de diferentes formas según el artista me lo pida y lo podamos lograr 
+
