@@ -31,3 +31,272 @@ R/: demasiadas, viendo ejemplos como el propuesto por el profesor de alguien hac
 #### pregunta 3 ¿Cómo te ves profesionalmente en este escenario?
 R/: eso que menciono anteriormente me llama mucho la atención pues la musica es una parte muy importante en mi vida y me gustaria trabajar en ese ambito, siento que puede ser mas maleable, mientras un artista de musica suele casarse con un genero o tipo de musica, el arte generativo y el ser la imagen de la musica me da la posibilidad de conocer mucha musica y de que la misma musica la represente de diferentes formas según el artista me lo pida y lo podamos lograr 
 
+### Actividad 3 
+
+#### Código original 
+
+``` Js
+'use strict';
+
+var shape;
+
+var joints = 5;
+var lineLength = 100;
+var speedRelation = 2;
+var center;
+var pendulumPath;
+var angle = 0;
+var maxAngle = 360;
+var speed;
+
+var showPendulum = true;
+var showPendulumPath = true;
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  colorMode(HSB, 360, 100, 100, 100);
+  noFill();
+  strokeWeight(1);
+
+  center = createVector(width / 2, height / 2);
+
+  startDrawing();
+}
+
+function startDrawing() {
+  pendulumPath = [];
+  // new empty array for each joint
+  for (var i = 0; i < joints; i++) {
+    pendulumPath.push([]);
+  }
+
+  angle = 0;
+  speed = (8 / pow(1.75, joints - 1) / pow(2, speedRelation - 1));
+}
+
+function draw() {
+  background(0, 0, 100);
+
+  angle += speed;
+
+  // each frame, create new positions for each joint
+  if (angle <= maxAngle + speed) {
+    // start at the center position
+    var pos = center.copy();
+
+    for (var i = 0; i < joints; i++) {
+      var a = angle * pow(speedRelation, i);
+      if (i % 2 == 1) a = -a;
+      var nextPos = p5.Vector.fromAngle(radians(a));
+      nextPos.setMag((joints - i) / joints * lineLength);
+      nextPos.add(pos);
+
+      if (showPendulum) {
+        noStroke();
+        fill(0, 10);
+        ellipse(pos.x, pos.y, 4, 4);
+        noFill();
+        stroke(0, 10);
+        line(pos.x, pos.y, nextPos.x, nextPos.y);
+      }
+
+      pendulumPath[i].push(nextPos);
+      pos = nextPos;
+    }
+  }
+
+  // draw the path for each joint
+  if (showPendulumPath) {
+    strokeWeight(1.6);
+    for (var i = 0; i < pendulumPath.length; i++) {
+      var path = pendulumPath[i];
+
+      beginShape();
+      var hue = map(i, 0, joints, 120, 360);
+      stroke(hue, 80, 60, 50);
+      for (var j = 0; j < path.length; j++) {
+        vertex(path[j].x, path[j].y);
+      }
+      endShape();
+    }
+  }
+}
+
+function keyPressed() {
+  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+
+  if (keyCode == DELETE || keyCode == BACKSPACE) startDrawing();
+
+  if (keyCode == UP_ARROW) {
+    lineLength += 2;
+    startDrawing();
+  }
+  if (keyCode == DOWN_ARROW) {
+    lineLength -= 2;
+    startDrawing();
+  }
+  if (keyCode == LEFT_ARROW) {
+    joints--;
+    if (joints < 1) joints = 1;
+    startDrawing();
+  }
+  if (keyCode == RIGHT_ARROW) {
+    joints++;
+    if (joints > 10) joints = 10;
+    startDrawing();
+  }
+
+  if (key == '+') {
+    speedRelation += 0.5;
+    if (speedRelation > 5) speedRelation = 5;
+    startDrawing();
+  }
+  if (key == '-') {
+    speedRelation -= 0.5;
+    if (speedRelation < 2) speedRelation = 2;
+    startDrawing();
+  }
+
+  if (key == '1') showPendulum = !showPendulum;
+  if (key == '2') showPendulumPath = !showPendulumPath;
+}
+```
+
+#### código modificado 
+
+``` Js
+'use strict';
+
+var joints = 5;
+var lineLength = 100;
+var speedRelation = 2;
+var center;
+var pendulumPath;
+var angle = 0;
+var maxAngle = 360;
+var speed;
+
+var showPendulum = true;
+var showPendulumPath = true;
+
+var isPaused = false; // NUEVO: estado de pausa
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  colorMode(HSB, 360, 100, 100, 100);
+  noFill();
+  strokeWeight(1);
+
+  center = createVector(width / 2, height / 2);
+  startDrawing();
+}
+
+function startDrawing() {
+  pendulumPath = [];
+  for (var i = 0; i < joints; i++) {
+    pendulumPath.push([]);
+  }
+
+  angle = 0;
+  speed = (8 / pow(1.75, joints - 1) / pow(2, speedRelation - 1));
+}
+
+function draw() {
+  background(mouseX, mouseX, 100);
+
+  if (isPaused) return; // NUEVO: si está pausado, no dibuja nada
+
+  angle += speed;
+
+  if (angle <= maxAngle + speed) {
+    var pos = center.copy();
+
+    for (var i = 0; i < joints; i++) {
+      var a = angle * pow(speedRelation, i);
+      if (i % 2 == 1) a = -a;
+      var nextPos = p5.Vector.fromAngle(radians(a));
+      nextPos.setMag((joints - i) / joints * lineLength);
+      nextPos.add(pos);
+
+      if (showPendulum) {
+        noStroke();
+        fill(0, 10);
+        ellipse(pos.x, pos.y, 4, 4);
+        noFill();
+        stroke(0, 10);
+        line(pos.x, pos.y, nextPos.x, nextPos.y);
+      }
+
+      pendulumPath[i].push(nextPos);
+      pos = nextPos;
+    }
+  }
+
+  if (showPendulumPath) {
+    strokeWeight(1.6);
+    for (var i = 0; i < pendulumPath.length; i++) {
+      var path = pendulumPath[i];
+
+      beginShape();
+      var hue = map(i, 0, joints, 120, 360);
+      stroke(hue, 80, 60, 50);
+      for (var j = 0; j < path.length; j++) {
+        vertex(path[j].x, path[j].y);
+      }
+      endShape();
+    }
+  }
+}
+
+function mousePressed() {
+  if (mouseButton === LEFT) {
+    if (!isPaused) {
+      isPaused = true;
+    } else {
+      center = createVector(mouseX, mouseY); // NUEVO: reinicia desde aquí
+      isPaused = false;
+      startDrawing();
+    }
+  }
+}
+
+function keyPressed() {
+  if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
+
+  if (keyCode == DELETE || keyCode == BACKSPACE) startDrawing();
+
+  if (keyCode == UP_ARROW) {
+    lineLength += 2;
+    startDrawing();
+  }
+  if (keyCode == DOWN_ARROW) {
+    lineLength -= 2;
+    startDrawing();
+  }
+  if (keyCode == LEFT_ARROW) {
+    joints--;
+    if (joints < 1) joints = 1;
+    startDrawing();
+  }
+  if (keyCode == RIGHT_ARROW) {
+    joints++;
+    if (joints > 10) joints = 10;
+    startDrawing();
+  }
+
+  if (key == '+') {
+    speedRelation += 0.5;
+    if (speedRelation > 5) speedRelation = 5;
+    startDrawing();
+  }
+  if (key == '-') {
+    speedRelation -= 0.5;
+    if (speedRelation < 2) speedRelation = 2;
+    startDrawing();
+  }
+
+  if (key == '1') showPendulum = !showPendulum;
+  if (key == '2') showPendulumPath = !showPendulumPath;
+}
+
+```
