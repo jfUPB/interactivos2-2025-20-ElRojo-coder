@@ -300,3 +300,119 @@ function keyPressed() {
 }
 
 ```
+## Actividad 4
+``` js
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Figuras Geométricas</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+</head>
+<body>
+  <script>
+    let shapes = [];
+    const shapeTypes = ['cuadrado', 'circulo', 'triangulo', 'rombo'];
+    const numShapes = 20;
+
+    function setup() {
+      createCanvas(800, 600);
+      for (let i = 0; i < numShapes; i++) {
+        shapes.push(new Shape());
+      }
+    }
+
+    function draw() {
+      background(240);
+      for (let s of shapes) {
+        s.update();
+        s.display();
+      }
+    }
+
+    function mouseClicked() {
+      // Cambiar color y tamaño de todas las figuras
+      for (let s of shapes) {
+        // Nuevo color diferente
+        let newColor;
+        do {
+          newColor = color(random(255), random(255), random(255));
+        } while (newColor.toString() === s.col.toString());
+        s.col = newColor;
+        // Nuevo tamaño aleatorio
+        s.size = random(20, 60);
+      }
+    }
+
+    class Shape {
+      constructor() {
+        this.type = random(shapeTypes);
+        this.size = random(20, 60);
+        this.pos = createVector(random(width), random(height));
+        this.vel = p5.Vector.random2D().mult(random(1, 3));
+        this.col = color(random(255), random(255), random(255));
+      }
+
+      update() {
+        this.pos.add(this.vel);
+
+        let hitX = false;
+        let hitY = false;
+        if (this.pos.x <= this.size / 2 || this.pos.x >= width - this.size / 2) {
+          this.vel.x *= -1;
+          hitX = true;
+        }
+        if (this.pos.y <= this.size / 2 || this.pos.y >= height - this.size / 2) {
+          this.vel.y *= -1;
+          hitY = true;
+        }
+
+        if (hitX && hitY) {
+          this.vel = p5.Vector.random2D().mult(random(1, 3));
+        }
+
+        this.pos.x = constrain(this.pos.x, this.size / 2, width - this.size / 2);
+        this.pos.y = constrain(this.pos.y, this.size / 2, height - this.size / 2);
+      }
+
+      display() {
+        fill(this.col);
+        noStroke();
+        const s = this.size;
+        const x = this.pos.x;
+        const y = this.pos.y;
+
+        switch (this.type) {
+          case 'cuadrado':
+            rectMode(CENTER);
+            rect(x, y, s, s);
+            break;
+          case 'circulo':
+            ellipseMode(CENTER);
+            ellipse(x, y, s, s);
+            break;
+          case 'triangulo':
+            push();
+            translate(x, y);
+            rotate(frameCount * 0.01);
+            triangle(-s/2, s/2, 0, -s/2, s/2, s/2);
+            pop();
+            break;
+          case 'rombo':
+            push();
+            translate(x, y);
+            rotate(PI/4);
+            rectMode(CENTER);
+            rect(0, 0, s, s);
+            pop();
+            break;
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+```
+
+este codigo genera figuras geometricas que al llegar a las esquinas rebotan con nuevas direcciones y angulos aleatorios, al dar clic los colores de las figuras cambian de forma aleatoria y el tamaño de ellas también se ve afectado 
