@@ -218,9 +218,10 @@ class Circulo {
 
 <img width="404" height="370" alt="image" src="https://github.com/user-attachments/assets/5352eb4d-a583-4b4c-a60a-b5d5d7f179c9" />
 
-s<img width="452" height="428" alt="image" src="https://github.com/user-attachments/assets/6c3f80e7-eaf2-42ce-abee-524726ad6d3e" />
+<img width="452" height="428" alt="image" src="https://github.com/user-attachments/assets/6c3f80e7-eaf2-42ce-abee-524726ad6d3e" />
 
 <img width="460" height="426" alt="image" src="https://github.com/user-attachments/assets/7baa0192-5711-442a-8219-28e07b025357" />
+
 <img width="459" height="476" alt="image" src="https://github.com/user-attachments/assets/ab9b8f27-d1aa-4d21-8c67-4e7b882d5089" />
 
 #### cambios 
