@@ -35,3 +35,31 @@ si ha cambiado, el hecho de ya empezar a experimentar y mover cosas me dio la op
 
 ### pregunta 4 
 a mi la que mas me ha servido y motivado ha sido el ver referentes, el ver como utilizan cosas que a simple vista yo nunca usaria para usarlas de parametros o imputs para generar cosas increibiles como el patrón de un carro con simplemente su recorrido, o botellas de vino con sus estaciones, otra que me sorprendió mucho fue la de arte en vivo acompañando a un artista (cantante) e ilustrando en tiempo real lo que este transmite, siento que de cierta forma ese es el futuro de este medio 
+
+## punto 7
+### pregunta 4
+hice este trabajo con mi compañero Trujillo y tiene un generador de figuras "abstractas" que son delineadas por un punto que sigue la figura, este permite aumentar su velocidad, disminuirla y aumentarla. La retroaliemtación que le daría es hacerlo un poco mas caótico, que pudiera agregar figuras a las que ya hay y que termine siendo algo que en un punto ni se entienda, eso puede dar cabida a patrones y cosas no vista a primera vista
+
+### pregunta 5
+
+aprendí que de cierta forma el orden tambien ayuda a la legibilidad y que se pueden poner diversos botones no solo 1-2 como lo hice yo 
+
+## punto 8 
+
+### pregunta 1 
+lo que siento que más me ayudó y me divertí fue con la parte de destruir el código, utilicé cosas que no suelo utlizar y cosas que cambian que no solía utilizar antes 
+
+### pregunta 2 
+no siento que haya una parte o punto que no tenga relavancia o sea util, tiene una parte introductoria, que se explora y que se empieza a expermientar de forma progresiva, pese a que son cosas que de cierta forma ya sabemos por haberlo visto en la materia anterior se afianzan conocimientos y cosas que no estaban tan claras o que se van olvidando, no tengo quejas :D
+
+### pregunta 3
+me gustaria experimentar más es algo que de una u otra forma enseña algo y da oportunidad a experimentar y crear cosas que por lo general no se harian o no en esos caminos, es divertido jugar con codigos creados y sin crear para hacer cosas unicas 
+
+### pregunta 4 
+me gustó el uso de destrucción/construcción ayuda a entender un codigo y una forma de diseño, da bases para empezar a crear por uno mismo, y no empezar totalmente de 0. Me gustaria que se siguiera utilizando 
+
+### pregunta 5 
+
+agroso modo no tengo quejas, esta unidad me gustó mucho y estuvo divertido jugar de muchas formas con los códigos 
+
+
