@@ -179,3 +179,13 @@ Yo estoy de acuerdo con lo que plantea el profesor, el hecho de vivir y apropiar
 es dar un inicio a la obra que siembra una semilla de lo que puede pasar a continuación creando un vinculo cognitivo y emocional
 
 
+#### Parte 2 
+
+#### pregunta 1 
+para mi lo mas dificil fue escoger la canción pues al ser un oyente regular de rap de medellin me cuesta decantarme por una en especifico, y la costumbre a escuchar musica tan metaforica me ayudó a plasmar el diseño, s
+#### pregunta 2 
+la idea de que el usuario pueda controlar el oro con el alquitrán me pareció una muy buena idea de que cada concierto que hubiera fuese diferente y pensé en hacer que solamente fuera el dorado, pero el alquitrán hace parte importante de la historia contada como algo metaforico de sentimientos negativos 
+#### pregunta 3 
+si es multi lineal pues la posibilidad de enviar las palabras hace que cada persona pueda hacer un minimo cambio en la "historia contada" de forma interactiva y loo que expliqué antes del alquitrán 
+#### pregunta 4
+bastante, hace que una experiencia interactiva no solo sea un entorno fisico con el que se interactua valga la redundancia sinó que puede ser algo mas libre y mas cambiante, usando parametros tan simples como las pulsaciones de un usuario o unas palabras que este envíe y cambien completamente todo 
