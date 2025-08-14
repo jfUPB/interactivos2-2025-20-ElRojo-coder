@@ -151,12 +151,31 @@ Salida tangible: posibilidad de enviar un “recuerdo” digital (imagen generat
 
 #### 1) Nodos
 El espacio se organiza en nodos físicos y narrativos: zona íntima (frente al escenario), nodos laterales interactivos (pequeñas plataformas proyectadas donde las palabras aparecen), y nodos móviles (zonas de proyección en suelo donde el público puede caminar y activar capas). Cada nodo representa un “fragmento” de la narrativa una foto, una palabra, una textura que se puede explorar en distinto orden. Los nodos son puntos de decisión visual y sensorial.
+
 #### 2) Multi-linealidad
+
 La experiencia no es lineal: aunque la canción sigue estructura musical, las manifestaciones visuales y sonoras se ramifican según la participación colectiva. Si la audiencia decide (tap/cantar/latir) más hacia la transformación, la narrativa toma la línea de transmutación (oro). Si mantiene baja energía, la narrativa se mantiene en la línea de introspección oscura. Estas ramificaciones permiten múltiples finales (murales dorados, murales oscuros, híbridos), alimentando historias alternas dentro de un mismo concierto.
+
 #### 3) Staging
+
 La puesta en escena (luces, proyecciones, posiciones del artista y público) está coreografiada como un teatro interactivo: cada fase cambia la posición de foco, la intensidad lumínica y la relación cuerpo-escena. Se diseñan transiciones suaves y “entradas” para que el público perciba el paso de un nodo a otro (ej.: el techo se ilumina como un relicario cuando la transmutación es posible). Staging aquí no es solo escenografía, es la forma de presentar las posibilidades narrativas al público —mostrando qué se puede activar y cómo.
+
 #### 4) Agencia
+
 Los asistentes tienen agencia real y medible: sus taps, latidos, voces y posición alteran parámetros centrales (alquitrán, oro, tempo y armonización). Las decisiones colectivas tienen consecuencias perceptibles: el público puede (y sabrá que puede) transformar lo oscuro en brillo. Al mismo tiempo, la experiencia respeta límites —no todo se puede controlar— lo que crea una dialéctica entre agencia y destino, muy alineada con la letra (intención vs. imposibilidad).
 
 ### Refelect 
+
+#### pregunta 1 
+
+este marco es importante y de gran ayuda ya que da un orden y la posibilidad de entender la ida de diseño y desarrollo de una fomrma organizada y clara y te obliga a aplomar ideas y hacer las claras. Tambien ayuda a que si otra persona tiene que leer el documento lo haga de forma clara 
+
+#### pregunta 2 
+
+Yo estoy de acuerdo con lo que plantea el profesor, el hecho de vivir y apropiarse de un personaje ficticio suele conectar mas, es como si fuera una relación con una persona fisica, eso se ve en los fanatismos de series o animes que pese a que es un personaje ficticio hay gente que puede decir que siente sentimientos reales por esos personajes, hay casos donde se desdibuja a la persona/actor que protagoniza y solo se ve a ese personaje en él o ella, el ejemplo está con miley cyrus, si ese vinculo y apropiación se puede dar solo con ver la serie, ahora que clase de vinculos se pueden crear si aparte de una narrativa envolvente el usuario puede interactuar con el personaje
+
+#### pregunta 3 
+
+es dar un inicio a la obra que siembra una semilla de lo que puede pasar a continuación creando un vinculo cognitivo y emocional
+
 
