@@ -10,48 +10,91 @@ Canción # 8
 Duración 2:37 
 #### Letra 
 Y yo era el mismo Niño ordinario
+
 Que quería hacer alquimia con papel y abecedarios
+
 Viviendo en el invierno sin importar calendarios
+
 Yo era otra foto rota guardada en un relicario 
+
 El mensajero de un corazón encerrado
+
 Que canta como un ave para engañar la libertad
+
 Vi la tranquilidad en cuarto desordenado
+
 Y me sentí completo sin tener mi otra mitad
+
 Quise pintar paisajes donde nadie más buscaba
+
 Para tener la paz que no tendría cualquiera
+
 Los caminos de la vida no son lo que yo esperaba
+
 Y menos voy a tomar el camino que la vida quiera Fuera
+
 Del dolor y su labial
+
 Del cora y su palpitar
+
 Del oro y el alquitrán
+
 Del futuro en el desván
+
 De preguntar dónde van Las huellas de los sueños con zapatos de Cristal
+
 A veces me gusta que el mundo sea cruel y frío
+
 A veces me duele lo que pueda perder
+
 Pero Lo que ahoga no es caerse al río Lo que ahoga es mantenerse en él
+
 Busco riqueza en los ojos que ya han llorado
-Veo pobreza los que no quieren llorar 
-Perdí la fe en los labios que ya he besado Y me arrodillo y le rezo a Los que no puedo besar 
-Busco riqueza en los ojos que ya han llorado
+
 Veo pobreza los que no quieren llorar
+
 Perdí la fe en los labios que ya he besado Y me arrodillo y le rezo a Los que no puedo besar
+
+Busco riqueza en los ojos que ya han llorado
+
+Veo pobreza los que no quieren llorar
+
+Perdí la fe en los labios que ya he besado Y me arrodillo y le rezo a Los que no puedo besar
+
 Soy otro idiota cargando con el orgullo Todo lo quiero hacer oro y al contrario lo destruyo 
+
 Un pésimo hipócrita no entiende de murmullos Yo no sigo la corriete por eso digo no fluyo Tuyo 
+
 Pero nunca para siempre
+
 Me voy para volver como las
+
 Hojas en septiembre 
+
 Busco la luna para contarle mis pesares
+
 Mi letra es mi epitafio para que no me desampare
+
 Y si te digo que no importa si el ritmo te transporta 
+
 A escribir en el móvil o en el papel La vida es demasiado corta algunos no soportan
+
 Que los cortes que más duelen son debajo de la piel 
+
 Mi pluma traviesa me atraviesa el alma Por eso la vida la dejo en el papel Después de la tormenta llegará la calma 
+
 Pero te persigue el karma a cobrar lo que no haces bien 
+
 Busco riqueza en los ojos que ya han llorado 
+
 Veo pobreza los que no quieren llorar 
+
 Perdí la fe en los labios que ya he besado Y me arrodillo y le rezo a Los que no puedo besar 
+
 Busco riqueza en los ojos que ya han llorado Veo pobreza los que no quieren llorar 
+
 Perdí la fe en los labios que ya he besado Y me arrodillo y le rezo a Los que no puedo besar
+
 
 Concepto Raíz “Alquimia de lo roto”: “Midas” habla de transformar (hacer oro) y, a la vez, de perder, llorar, arrodillarse ante lo que no se puede poseer. Propongo que la experiencia sea un laboratorio de alquimia emocional: materiales visuales y sonoros pasan por un “horno” generativo que los transforma a veces en brillo dorado, a veces en alquitrán oscuro. El público no sólo observa la transformación; la cataliza con su voz y sus gestos.
 
@@ -116,3 +159,4 @@ La puesta en escena (luces, proyecciones, posiciones del artista y público) est
 Los asistentes tienen agencia real y medible: sus taps, latidos, voces y posición alteran parámetros centrales (alquitrán, oro, tempo y armonización). Las decisiones colectivas tienen consecuencias perceptibles: el público puede (y sabrá que puede) transformar lo oscuro en brillo. Al mismo tiempo, la experiencia respeta límites —no todo se puede controlar— lo que crea una dialéctica entre agencia y destino, muy alineada con la letra (intención vs. imposibilidad).
 
 ### Refelect 
+
