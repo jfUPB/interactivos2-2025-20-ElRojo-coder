@@ -1,9 +1,6 @@
 # Unidad 3
 
 
-## 🛠 Fase: Apply
-# Unidad 3
-
 
 ## 🛠 Fase: Apply
 
@@ -90,3 +87,4 @@ function draw() {
 
 ### enlace del video 
 https://youtube.com/shorts/fJdSMvri29E?feature=share
+
